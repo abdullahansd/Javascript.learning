@@ -1,0 +1,186 @@
+{
+  "phases": [
+    {
+      "title": "JavaScript mastery and TypeScript",
+      "weeks": [
+        {
+          "topic": "Array methods, objects, destructuring, spread/rest, chaining",
+          "deliverable": "Shopping cart engine"
+        },
+        {
+          "topic": "Promises, async/await, Fetch, error handling, event loop",
+          "deliverable": "API-powered application"
+        },
+        {
+          "topic": "TypeScript, interfaces, types, unions, generics, modules",
+          "deliverable": "Convert a JavaScript project to TypeScript"
+        }
+      ]
+    },
+    {
+      "title": "Frontend engineering",
+      "weeks": [
+        {
+          "topic": "React fundamentals, JSX, components, props, state",
+          "deliverable": "Interactive task manager"
+        },
+        {
+          "topic": "Hooks, effects, forms, validation, Context",
+          "deliverable": "Complete task management application"
+        },
+        {
+          "topic": "React Router, API integration, server state, TanStack Query",
+          "deliverable": "API-driven dashboard"
+        },
+        {
+          "topic": "Next.js, routing, rendering, Tailwind, responsive design",
+          "deliverable": "Production-style frontend"
+        }
+      ]
+    },
+    {
+      "title": "Backend and database engineering",
+      "weeks": [
+        {
+          "topic": "Node.js, HTTP, REST APIs, Express or NestJS",
+          "deliverable": "REST API"
+        },
+        {
+          "topic": "PostgreSQL, SQL, joins, relationships, indexing",
+          "deliverable": "Database-backed application"
+        },
+        {
+          "topic": "Authentication, authorization, sessions, JWT, cookies",
+          "deliverable": "Secure user accounts"
+        },
+        {
+          "topic": "Validation, middleware, file uploads, security, logging",
+          "deliverable": "Robust backend"
+        },
+        {
+          "topic": "Testing, integration, API documentation",
+          "deliverable": "Full-stack application"
+        }
+      ]
+    },
+    {
+      "title": "Production-grade software engineering",
+      "weeks": [
+        {
+          "topic": "Git workflows, branching, pull requests, code review",
+          "deliverable": "Collaborative development workflow"
+        },
+        {
+          "topic": "Docker, environment variables, CI/CD, deployment",
+          "deliverable": "Deployed full-stack application"
+        },
+        {
+          "topic": "Security, caching, performance, logging, monitoring",
+          "deliverable": "Production-readiness improvements"
+        }
+      ]
+    },
+    {
+      "title": "Python foundations for AI engineering",
+      "weeks": [
+        {
+          "topic": "Python syntax, data structures, functions, modules, exceptions",
+          "deliverable": "Python utilities"
+        },
+        {
+          "topic": "OOP, typing, virtual environments, packages, async basics",
+          "deliverable": "Reusable Python services"
+        },
+        {
+          "topic": "FastAPI, Pydantic, HTTP APIs, testing",
+          "deliverable": "Python backend service"
+        }
+      ]
+    },
+    {
+      "title": "LLM application engineering",
+      "weeks": [
+        {
+          "topic": "LLM fundamentals, tokens, context windows, model APIs",
+          "deliverable": "AI chat application"
+        },
+        {
+          "topic": "Prompt design, structured outputs, streaming, tool calling",
+          "deliverable": "AI assistant with tools"
+        },
+        {
+          "topic": "Embeddings, vector search, chunking, retrieval",
+          "deliverable": "Document search"
+        },
+        {
+          "topic": "RAG, citations, evaluation, hallucination control",
+          "deliverable": "AI document assistant"
+        }
+      ]
+    },
+    {
+      "title": "Agentic AI engineering",
+      "weeks": [
+        {
+          "topic": "Agent fundamentals, tool calling, state, workflows",
+          "deliverable": "Tool-using AI agent"
+        },
+        {
+          "topic": "LangGraph, state machines, checkpoints, human approval",
+          "deliverable": "Multi-step agent workflow"
+        },
+        {
+          "topic": "MCP, servers, clients, tools, resources",
+          "deliverable": "MCP-enabled application"
+        },
+        {
+          "topic": "Multi-agent patterns, guardrails, evaluations, observability",
+          "deliverable": "Controlled agent system"
+        }
+      ]
+    },
+    {
+      "title": "AI-native engineering and job readiness",
+      "weeks": [
+        {
+          "topic": "AI coding agents, context engineering, repository workflows",
+          "deliverable": "AI-assisted development workflow"
+        },
+        {
+          "topic": "System design, architecture, scalability, security",
+          "deliverable": "Architecture case study"
+        },
+        {
+          "topic": "Portfolio polishing, testing, deployment, documentation",
+          "deliverable": "Production-quality portfolio"
+        },
+        {
+          "topic": "Technical interviews, debugging, project defence, applications",
+          "deliverable": "Job-ready profile"
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Full-stack project management platform",
+      "stack": "React · TypeScript · Next.js · Node.js · PostgreSQL",
+      "features": "Registration and login; user profiles and roles; projects and tasks; database persistence; REST API; search and filtering; input validation; automated tests."
+    },
+    {
+      "name": "AI document assistant",
+      "stack": "Python · FastAPI · LLM APIs · embeddings · RAG · PostgreSQL · pgvector",
+      "features": "Upload PDFs and documents; extract and process content; create embeddings; store searchable representations; ask questions; grounded answers with source citations."
+    },
+    {
+      "name": "Agentic AI platform",
+      "stack": "LangGraph · MCP · tool calling · approval workflows · evaluation",
+      "features": "Accept a research task; break it into smaller tasks; search approved sources; summarize; save results; create reports; request human approval before consequential actions."
+    },
+    {
+      "name": "Integrated AI SaaS product",
+      "stack": "Full-stack · AI · deployment · production monitoring",
+      "features": "Combine frontend, backend, database, AI features, authentication, deployment, monitoring and production-quality documentation."
+    }
+  ]
+}
